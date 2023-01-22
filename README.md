@@ -1,6 +1,5 @@
-# Hello World Test
+# SDEV 220
 
-M01-Collaboration
 
 Some Description text.
 
