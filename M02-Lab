@@ -1,0 +1,14 @@
+# Riley Ringer
+# Date 1/23/2023
+# This program decides weather the student has made the Dean's list
+# Or Honor Roll.
+lastname = input("Enter Student Last Name: ")
+while lastname != "ZZZ":
+    firstname = input("Enter Student First Name: ")
+    gpa = float(input("Enter Student GPA: "))
+    if gpa >= 3.5:
+        print(firstname, lastname, ('has made the deans list'))
+    else:
+        if gpa >= 3.25:
+            print(firstname,lastname, ('has made honor role')) 
+    lastname = input("Enter Student Last Name: ")
